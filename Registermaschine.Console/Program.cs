@@ -37,9 +37,11 @@ public abstract class Registermaschine {
 
     private List<Befehl> Befehlsregister = new();
     private Dictionary<int, int> Datenregister = new();
+    
+    d
+    
     private int Akkumulator = 0;
     public abstract void LadeBefehle();
-
     
 
     public void Starte() {
